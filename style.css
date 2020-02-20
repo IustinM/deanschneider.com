@@ -168,3 +168,80 @@ nav li {
 .nume-container1{
     color: rgb(189, 184, 184);
 }
+#container2{
+    display: flex;
+    flex-direction: column;
+    top: 40rem;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 70%
+}
+.imagine-container2{
+    top: 0rem;
+    position: relative;
+    background-image: url(images/Untitled4.png);
+    min-width: 300px;
+    min-height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+.citat-container2{
+    margin: 1rem 2rem;
+    padding: 1rem;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;color: rgb(189, 184, 184);
+}
+.button-container2{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.3rem 1rem;
+}
+.button-container2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.imagine-container3{
+    top: 0rem;
+    position: relative;
+    background-image: url(images/Untitled3.png);
+    min-width: 300px;
+    min-height: 250px;
+    background-position: center center;
+    background-size: cover;
+}#container3{
+    display: flex;
+    flex-direction: column;
+    top: 80rem;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 70%
+}
+.citat-container3{
+    margin: 1rem 2rem;
+    padding: 1rem;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;color: rgb(189, 184, 184);
+}
+.button-container2{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.3rem 1rem;
+}
+.button-container3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+
+}
