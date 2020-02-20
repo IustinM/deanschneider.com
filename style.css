@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    min-height: 15%;
+    justify-content: space-around;
+    
+}
+nav img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 70px;
+    margin: 1rem;
+    
+}
+.linkuri{
+    position: absolute;
+    width: 80%;
+    position: absolute;
+    top: 6rem;
+    border-top: 3px solid black;
+    padding: 1rem;
+    list-style-type: none;
+    transition: 1s ease-in;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.line{
+    width: 27px;
+    height: 2px;
+    margin: 8px;
+    display: block;
+    background-color: #fbba00;
+}
+ .burger{
+   
+    margin-left: 0.3rem;
+} 
+.dreapta-navigatiei{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin: 2rem 1.5rem;
+    
+}
+.donatie2{
+    background-color:#fbba00 ;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 0.4rem;
+    font-family: sans-serif;
+}
+/* @media screen and (max-width:768px){
+    nav{
+        height: 35%;
+    }
+} */
+
+.donatie li{
+    padding:  0.5rem 1rem;
+    border-bottom: none;
+}
+.donatie{
+    background-color: #fbba00;
+    margin: 0 0.5REM;
+    
+}
+
+.linkuri li {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #aaaaaa36;
+}
+.donatie-link{
+    color: white;
+}
+.linkuri a{
+    
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.linkuri-links a{
+    color: black;
+    
+}
+.linkuri-links li:nth-child(5){
+    border-bottom: 1px solid white;
+}
+.linkuri-links li:nth-child(1){
+    color: black;
+}
+.linkuri-links a:hover{
+    color: rgba(134, 134, 134, 0.555);
+}
+.linkuri{
+    display: none;
+    -webkit-transition:200ms ease;
+    -moz-transition:200ms ease;
+    -o-transition:200ms ease;
+    transition:200ms ease;
+    
+}
+.linkuri-active{
+    display: block ;
+    transition: 1s ease-in;
+}
