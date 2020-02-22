@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 html,body{
-    height: 100%;
-    width: 100%;
+ 
     font-family: sans-serif;
     -webkit-text-size-adjust:100%;
 }
@@ -36,7 +35,7 @@ nav img{
     border-top: 3px solid black;
     padding: 1rem;
     list-style-type: none;
-    transition: 1s ease-in;
+    
     z-index: 1;
 }
 
@@ -100,7 +99,9 @@ nav li {
     margin: 0 0.5REM;
     
 }
-
+.linkuri-links{
+    transition:  1s;
+}
 .linkuri li {
     padding: 0.5rem 1rem;
     border-bottom: 1px solid #aaaaaa36;
@@ -138,7 +139,7 @@ nav li {
 }
 .linkuri-active{
     display: block ;
-    transition: 1s ease-in;
+    transition: transform 1s ease-in;
 }
 
 #container1{
@@ -474,4 +475,11 @@ nav li {
 }
 .burger div{
     transition: all 0.3s ease;
+}
+#container6 i:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#footer strong{
+    color: rgb(121, 121, 121);
 }
