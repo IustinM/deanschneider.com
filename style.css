@@ -44,7 +44,21 @@ nav li {
     list-style-type: none;
 }
 
-.line{
+.line1{
+    width: 27px;
+    height: 2px;
+    margin: 8px;
+    display: block;
+    background-color: #fbba00;
+}
+.line2{
+    width: 27px;
+    height: 2px;
+    margin: 8px;
+    display: block;
+    background-color: #fbba00;
+}
+.line3{
     width: 27px;
     height: 2px;
     margin: 8px;
@@ -448,4 +462,16 @@ nav li {
     color: rgb(189, 184, 184);
     font-size: 13px;
     padding-bottom: 1rem;
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-8px,6px);
+}
+.toggle .line2{
+    opacity: 0;;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-8px,-6px);
+}
+.burger div{
+    transition: all 0.3s ease;
 }
